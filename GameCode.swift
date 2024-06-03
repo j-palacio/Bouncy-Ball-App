@@ -146,7 +146,7 @@ func ballExitedScene() {
     }
     
     if hitTargets == targets.count {
-        scene.presentAlert(text: "You won!", completion: alertDismissed)        
+        scene.presentAlert(text: "You won!", completion: alertDismissed)
     }
 }
 
